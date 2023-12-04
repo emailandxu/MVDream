@@ -54,7 +54,7 @@ if __name__ == "__main__":
     parser.add_argument("--suffix", type=str, default=", 3d asset")
     parser.add_argument("--size", type=int, default=256)
     parser.add_argument("--num_frames", type=int, default=4, help="num of frames (views) to generate")
-    parser.add_argument("--use_camera", type=int, default=1)
+    parser.add_argument("--use_camera", type=int, default=0)
     parser.add_argument("--camera_elev", type=int, default=15)
     parser.add_argument("--camera_azim", type=int, default=90)
     parser.add_argument("--camera_azim_span", type=int, default=360)

@@ -39,6 +39,7 @@ Note that you don't have to manually download the checkpoints for the following 
 You can simply generate multi-view images by running the following command:
 
 ``` bash
+#prompt="a bust of jackie chan, 3d asset "; python scripts/t2i.py --text "$prompt"; mv sample.png "$prompt".png
 python scripts/t2i.py --text "an astronaut riding a horse"
 ```
 We also provide a gradio script to try out with GUI:

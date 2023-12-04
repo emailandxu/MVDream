@@ -153,3 +153,5 @@ dmypy.json
 *.whl
 *.th
 *.onnx
+
+data/*
