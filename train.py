@@ -417,3 +417,7 @@ img = Image.fromarray(np.concatenate(imgs, 0))
 img.save("sample.png")
 img
 #%%
+
+torch.save(model.state_dict(), "dreambooth/model.pt")
+
+#%%
